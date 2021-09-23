@@ -18,7 +18,7 @@ $(function(){
         event.preventDefault(); 
         const playerTitle = $input.val();
         $input.val("");
-        $.ajax(`${BASE_URL}/api/v1/players/${playerTitle}`).then(function (data) {
+        $.ajax(`${BASE_URL}/api/v1/players/${playerTitle}`) .then(function (data) {
             playerData = data;
             render();
         }, function (error) {
