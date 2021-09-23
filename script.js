@@ -18,9 +18,10 @@ $(function(){
         event.preventDefault(); 
         const playerTitle = $input.val();
         $input.val("");
-        $.ajax(`${BASE_URL}/api/v1/players/${playerTitle}`) .then(function (data) {
+        $.ajax(`${BASE_URL}/api/v1/players/${playerTitle}`).then(function (data) {
             playerData = data;
             render();
+            console.log(playerData)
         }, function (error) {
             console.log(error);
         });
@@ -28,9 +29,9 @@ $(function(){
     
     
     function render() {
-        $first_name.text(playerData.FirstName);
-        $last_name.text(playerData.LastName);
-        $position.text(playerData.Position);
+        $first_name.text(playerData.first_name);
+        $last_name.text(playerData.last_name);
+        $position.text(playerData.position);
     }
     
         

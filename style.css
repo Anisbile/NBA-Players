@@ -1,24 +1,25 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.container{
-    background-color: blue;
-    height: 100vh;
-    display: flex;
+body{
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: Helvetica;
+    color:red;
+    height: 700px;
     justify-content: center;
     align-items: center;
     position: relative;
-}
-.box{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    display:center;
+    text-align: center;
+
 }
 .text-box{
-    height: 100vh;
-    display: flex;
+    height: 700px;
     justify-content: center;
     align-items: center;
     position: relative;
