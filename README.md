@@ -15,7 +15,7 @@ This is my first project in the SEIR Program
 
 # Getting Started
 
-[Click here](#) to see the deployed Project
+[Click here](https://anisbile.github.io/NBA-Players/) to see the deployed Project
 
 # Future Enhancements
 
