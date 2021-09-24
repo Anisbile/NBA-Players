@@ -1,6 +1,6 @@
 # Random NBA Player Info Generator
 
-This is my first project in the SEIR Program 
+Enter a random number between 1 and 237 and it will return the info of a NBA player that is currently active.
 
 # Technologies Used
 
