@@ -19,4 +19,4 @@ Enter a random number between 1 and 237 and it will return the info of a NBA pla
 
 # Future Enhancements
 
--Going to add team logos and full playeer info including stats.
+-Going to add team logos and full player info including stats.
