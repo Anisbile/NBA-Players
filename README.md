@@ -10,7 +10,7 @@ This is my first project in the SEIR Program
 
 # Screenshots
 
-
+![screenshot](./screenshot.png)
 
 
 # Getting Started
@@ -19,3 +19,4 @@ This is my first project in the SEIR Program
 
 # Future Enhancements
 
+-Going to add team logos and full playeer info including stats.
